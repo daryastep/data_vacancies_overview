@@ -1,2 +1,39 @@
-# data_vacancies_overview
-dashboard
+# Data Vacancies by Directions. 
+
+Данный дашборд - это обзор рынка вакансий, связанных с данными:   
+`Data Analytics`,   
+`BI-Analytics`,   
+`Data Engineering`,   
+`Data Science / Machine Learning`.  
+
+На дашборде отображены:  
+- средние заработные платы в каждом направлении, их динамика и топовые работодатели
+- количество вакансий, их динамика с течением вредеми и топовые работодатели по каждому направлению  
+
+Также, предусмотрена фильтрация по направлению и по периоду, за который необходима информация
+
+
+
+
+### Данные: 
+archived — актуальная или в архиве  
+area_name — название региона   
+direction — направление аналитики для ключевого слова  
+employer_name — название работодателя   
+level — уровень позиции  
+name — название вакансии  
+published_at — дата публикации   
+query_string — поисковый запрос  
+type — тип поискового запроса (навык/профессия)  
+url — ссылка на вакансию  
+vacancy_id — id вакансии  
+lat — координаты вакансии, широта  
+lng — координаты вакансии, долгота   
+employer_id — id работодателя   
+salary, net — средняя зарплата в указной вилке после вычета налога  
+salary_from — минимальное значение зарплаты в вилке  
+salary_gross_flag — 0 — вилка указана net, 1 — вилка указана gross.  
+salary_to — максимальное значение зарплаты в вилке  
+
+
+[Ссылка на дашборд в Tableau](https://public.tableau.com/views/dashdoardlesson2_2/Dashboard_Vacancies?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
